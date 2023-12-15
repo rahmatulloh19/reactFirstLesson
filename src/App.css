@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Nunito Sans";
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url("../fonts/nunito-sans-v15-latin-300.woff2") format("woff2"),
+		url("../fonts/nunito-sans-v15-latin-300.woff") format("woff");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../fonts/nunito-sans-v15-latin-regular.woff2") format("woff2"),
+		url("../fonts/nunito-sans-v15-latin-regular.woff") format("woff");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../fonts/nunito-sans-v15-latin-600.woff2") format("woff2"),
+		url("../fonts/nunito-sans-v15-latin-600.woff") format("woff");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url("../fonts/nunito-sans-v15-latin-800.woff2") format("woff2"),
+		url("../fonts/nunito-sans-v15-latin-800.woff") format("woff");
+}
+
+/* Mobile first */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: "Nunito Sans", Arial, sans-serif;
+	background-color: #fafafa;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+}
+
+.container {
+	max-width: 1340px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+/* Sticky footer */
+
+.site-main {
+	flex-grow: 1;
+}
+
+/* Site header styles begin */
+
+/* Site header styles end */
+
+/* Site main begin */
+/* Site main end */
+
+body {
+}
+
+#root {
+}
